@@ -1,6 +1,6 @@
 {
   "name": "mori",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Persistent Data Structures for JavaScript",
   "homepage": "https://github.com/swannodette/mori",
   "author": "David Nolen (https://github.com/swannodette)",
@@ -15,7 +15,8 @@
     "reduce"
   ],
   "contributors": [
-    "David Nolen (https://github.com/swannodette)"
+    "David Nolen (https://github.com/swannodette)",
+    "Jesse Hallett (https://github.com/hallettj)"
   ],
   "bugs": {
     "url": "https://github.com/swannodette/mori/issues"
@@ -49,6 +50,11 @@
     "test": "jasmine-node spec",
     "typecheck": "flow check"
   },
+  "files": [
+    "mori.iml",
+    "mori.js",
+    "mori.js.flow"
+  ],
   "directories": {
     "test": "./spec"
   }
